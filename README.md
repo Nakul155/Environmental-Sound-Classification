@@ -1,6 +1,5 @@
 # Environmental-Sound-Classification
 
-Environmental sound classification involves distinguishing between various types of sounds like car horns, rain, or dog barks using machine learning models. In this study, we explore the performance of a 1D Convolutional Neural Network (CNN) when trained on three different audio features: MFCC, STFT, and Gammatone filterbanks.
+This project develops an end-to-end environmental sound classification system using a 1D Convolutional Neural Network (CNN) model, trained on the UltraSound8K dataset, which contains over 8,000 samples spanning diverse environmental sounds. The approach includes audio signal preprocessing with techniques such as Mel-Frequency Cepstral Coefficients (MFCC), Short-Time Fourier Transform (STFT), and Gammatone filterbanks, alongside the application of various filters— high-pass, low-pass, Kalman, and Wiener filters—to evaluate their effects on classification performance. The primary objectives are to assess the effectiveness of these preprocessing and filtering techniques in enhancing sound classification accuracy. Evaluation metrics including accuracy, precision, recall, and F1 score are used to validate model performance, with comparisons to baseline methods to ensure robust generalization. The findings are expected to yield a high-performing model and valuable insights into the contributions of different feature extraction and filtering techniques in environmental sound classification.
 
-If the .ipynb file does not load try reloading the page
 
